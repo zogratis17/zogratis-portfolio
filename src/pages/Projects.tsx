@@ -12,16 +12,16 @@ const Projects = () => {
     github: "https://github.com/your-username/virtual-hr",
     demo: "https://gemprep.streamlit.app/",
     tech: ["Python", "Streamlit", "Google Gemini API", "PyPDF2"]
-  },
+   },
   {
-    id: 2,
-    title: "Text-to-Image Generator",
-    description:
-      "An interactive web app that generates images from text using Hugging Face's FLUX.1-dev model and Streamlit UI.",
-    github: "https://github.com/your-username/text-to-image-generator",
-    // demo: "https://your-demo-url.com",
-    tech: ["Python", "Streamlit", "Hugging Face API", "Pillow"]
-  },
+  id: 2,
+  title: "Know-Ledge - AI-Powered Learning Platform",
+  description:
+    "A cross-platform AI-powered study assistant built with Flutter and Firebase, integrating Gemini AI, document scanning, quizzes, flashcards, and real-time chat features.",
+  github: "https://github.com/zogratis17/Know-ledge",
+  // demo: "https://your-demo-url.com",
+  tech: ["FlutterFlow", "Firebase", "Dart", "Gemini API", "Firestore"]
+},
   {
     id: 3,
     title: "Jarvis - Voice AI Assistant",
@@ -48,6 +48,15 @@ const Projects = () => {
     github: "https://github.com/your-username/trainmachan",
     // demo: "https://your-demo-url.com",
     tech: ["Python", "MySQL", "Tkinter"]
+   },
+  {
+    id: 6,
+    title: "Text-to-Image Generator",
+    description:
+      "An interactive web app that generates images from text using Hugging Face's FLUX.1-dev model and Streamlit UI.",
+    github: "https://github.com/your-username/text-to-image-generator",
+    // demo: "https://your-demo-url.com",
+    tech: ["Python", "Streamlit", "Hugging Face API", "Pillow"]
   }
 ];
 
