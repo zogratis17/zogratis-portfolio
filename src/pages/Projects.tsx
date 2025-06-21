@@ -10,7 +10,7 @@ const Projects = () => {
     description:
       "A Streamlit-based app that uses the Google Gemini API to simulate realistic, AI-powered mock interviews from uploaded resumes and job roles.",
     github: "https://github.com/your-username/virtual-hr",
-    // demo: "https://your-demo-url.com",
+    demo: "https://gemprep.streamlit.app/",
     tech: ["Python", "Streamlit", "Google Gemini API", "PyPDF2"]
   },
   {
@@ -116,18 +116,20 @@ const Projects = () => {
                   <Github size={16} />
                   Code
                 </motion.a>
-                
-                {/* <motion.a
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-200"
-                >
-                  <LinkIcon size={16} />
-                  Demo
-                </motion.a> */}
+
+                {project.demo && (
+                  <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-200"
+                  >
+                    <LinkIcon size={16} />
+                    Demo
+                  </motion.a>
+                )}
               </div>
             </motion.div>
           ))}
