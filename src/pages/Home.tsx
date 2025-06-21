@@ -90,7 +90,7 @@ const Home = () => {
               variants={itemVariants}
               className="mb-8 flex justify-center"
             >
-              <img src='./src/assets/bg1.png' alt="Profile" className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover shadow-lg" />
+              <img src="https://i.ibb.co/SwGv0ZCb/bg1.png" alt="Profile" className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover shadow-lg" />
             </motion.div>
 
             <motion.h1
