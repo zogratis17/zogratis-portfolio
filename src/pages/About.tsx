@@ -203,7 +203,7 @@ const educationData = [
                 >
                 <div className="relative w-40 h-60 md:w-56 md:h-80 rounded-2xl overflow-hidden shadow-lg mt-0">
                   <img
-                  src="./src/assets/bg.png"
+                  src="https://i.ibb.co/FLqBk8TL/bg.png"
                   alt="Profile"
                   className="object-cover w-full h-full"
                   style={{ aspectRatio: "1024 / 1526" }}
